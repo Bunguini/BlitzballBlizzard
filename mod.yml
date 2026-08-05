@@ -1,0 +1,193 @@
+title: BlitzBlizzard WAKKA EDITION
+original_author: Bunguini
+description: Replaces the ice animation with blitzballs and WAKKA
+
+assets:
+
+  # ==========================================
+  # CHARACTER MODELS & TEXTURES
+  # ==========================================
+  - name: remastered/obj/P_EX020.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020.a.us/-1.dds
+
+  - name: remastered/obj/P_LK020.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_LK020.a.us/-0.dds
+
+  - name: remastered/obj/P_LK020.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_LK020.a.us/-1.dds
+
+  - name: remastered/obj/P_WI020.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_WI020.a.us/-0.dds
+
+  - name: remastered/obj/P_WI020.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_WI020.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020_CA.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_CA.a.us/-0.dds
+
+  - name: remastered/obj/P_EX020_CA.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_CA.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020_CA.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_CA.a.us/-5.dds
+
+  - name: remastered/obj/P_EX020.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020.a.us/-5.dds
+
+  - name: remastered/obj/P_EX020_TR.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_TR.a.us/-5.dds
+
+  - name: remastered/obj/P_EX020_TR.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_TR.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020_XM.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_XM.a.us/-5.dds
+
+  - name: remastered/obj/P_EX020_XM.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_XM.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020_NM.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_NM.a.us/-5.dds
+
+  - name: remastered/obj/P_EX020_NM.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_NM.a.us/-1.dds
+
+  - name: remastered/obj/P_NM000.a.us/-2.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_NM000.a.us/-2.dds
+
+  - name: remastered/obj/P_NM000_SANTA.a.us/-2.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_NM000_SANTA.a.us/-2.dds
+
+  - name: remastered/magic/BLIZZARD_1.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_1.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_2.mag/-1.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_2.mag/-1.dds
+
+  - name: remastered/magic/BLIZZARD_3.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_3.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_3.mag/-1.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_3.mag/-1.dds
+
+  - name: remastered/magic/blizzard1.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/blizzard1.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_1lk.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_1lk.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_2.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_2.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_2lk.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_2lk.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_2lk.mag/-1.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_2lk.mag/-1.dds
+
+  - name: remastered/magic/BLIZZARD_3lk.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_3lk.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_3lk.mag/-1.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_3lk.mag/-1.dds
+
+  - name: remastered/magic/LK_BLIZZARD_1.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/LK_BLIZZARD_1.mag/-0.dds
+
+  - name: remastered/obj/P_EX020.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020.a.us/-0.dds
+
+  - name: remastered/obj/P_EX020.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020_TR.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_TR.a.us/-0.dds
+
+  - name: remastered/obj/P_EX020_XM.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_XM.a.us/-0.dds
+
+  - name: remastered/obj/P_EX020_NM.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_NM.a.us/-0.dds
+
+  - name: remastered/obj/P_EX350.a.us/-0.png
+    method: copy
+    source:
+      - name: remastered/obj/P_EX350.a.us/-0.png
+
+  - name: remastered/obj/P_EX360.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX360.a.us/-0.dds
+
+  - name: remastered/obj/P_EX360.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX360.a.us/-1.dds
