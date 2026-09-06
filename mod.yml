@@ -1,0 +1,236 @@
+title: Bunguini Blitzball Blizzard
+original_author: Bunguini
+description: Replaces the ice animation with blitzballs
+
+assets:
+
+  # ==========================================
+  # DONALD DUCK (All World Forms & Costumes)
+  # ==========================================
+  - name: remastered/obj/P_EX020.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020.a.us/-0.dds
+
+  - name: remastered/obj/P_EX020.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020.a.us/-5.dds
+
+  - name: remastered/obj/P_EX020_TR.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_TR.a.us/-0.dds
+
+  - name: remastered/obj/P_EX020_TR.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_TR.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020_TR.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_TR.a.us/-5.dds
+
+  - name: remastered/obj/P_EX020_XM.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_XM.a.us/-0.dds
+
+  - name: remastered/obj/P_EX020_XM.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_XM.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020_XM.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_XM.a.us/-5.dds
+
+  # Halloween Town
+  - name: remastered/obj/P_EX020_NM.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_NM.a.us/-0.dds
+
+  - name: remastered/obj/P_EX020_NM.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_NM.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020_NM.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_NM.a.us/-5.dds
+
+  # Port Royal / Caribbean
+  - name: remastered/obj/P_EX020_CA.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_CA.a.us/-0.dds
+
+  - name: remastered/obj/P_EX020_CA.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_CA.a.us/-1.dds
+
+  - name: remastered/obj/P_EX020_CA.a.us/-5.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX020_CA.a.us/-5.dds
+
+  # Lion King & Timeless River
+  - name: remastered/obj/P_LK020.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_LK020.a.us/-0.dds
+
+  - name: remastered/obj/P_LK020.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_LK020.a.us/-1.dds
+
+  - name: remastered/obj/P_WI020.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_WI020.a.us/-0.dds
+
+  - name: remastered/obj/P_WI020.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_WI020.a.us/-1.dds
+
+  # Misc Donald Variants
+  - name: remastered/obj/P_EX350.a.us/-0.png
+    method: copy
+    source:
+      - name: remastered/obj/P_EX350.a.us/-0.png
+
+  - name: remastered/obj/P_EX360.a.us/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX360.a.us/-0.dds
+
+  - name: remastered/obj/P_EX360.a.us/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_EX360.a.us/-1.dds
+
+  # ==========================================
+  # JACK SKELLINGTON
+  # ==========================================
+  - name: remastered/obj/P_NM000.a.us/-2.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_NM000.a.us/-2.dds
+
+  - name: remastered/obj/P_NM000_SANTA.a.us/-2.dds
+    method: copy
+    source:
+      - name: remastered/obj/P_NM000_SANTA.a.us/-2.dds
+
+  # ==========================================
+  # BLIZZARD MAGIC EFFECTS
+  # ==========================================
+  - name: remastered/magic/blizzard1.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/blizzard1.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_1.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_1.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_1lk.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_1lk.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_2.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_2.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_2.mag/-1.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_2.mag/-1.dds
+
+  - name: remastered/magic/BLIZZARD_2lk.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_2lk.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_2lk.mag/-1.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_2lk.mag/-1.dds
+
+  - name: remastered/magic/BLIZZARD_3.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_3.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_3.mag/-1.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_3.mag/-1.dds
+
+  - name: remastered/magic/BLIZZARD_3lk.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_3lk.mag/-0.dds
+
+  - name: remastered/magic/BLIZZARD_3lk.mag/-1.dds
+    method: copy
+    source:
+      - name: remastered/magic/BLIZZARD_3lk.mag/-1.dds
+
+  - name: remastered/magic/LK_BLIZZARD_1.mag/-0.dds
+    method: copy
+    source:
+      - name: remastered/magic/LK_BLIZZARD_1.mag/-0.dds
+
+  # ==========================================
+  # EVENT PAX & WORLD OBJECTS
+  # ==========================================
+  - name: remastered/event/tt_event_406.pax/-0.dds
+    method: copy
+    source:
+      - name: remastered/event/tt_event_406.pax/-0.dds
+
+  - name: remastered/event/tt_event_406.pax/-1.dds
+    method: copy
+    source:
+      - name: remastered/event/tt_event_406.pax/-1.dds
+
+  - name: remastered/obj/F_EX500.mdlx/-2.dds
+    method: copy
+    source:
+      - name: remastered/obj/F_EX500.mdlx/-2.dds
+
+  - name: remastered/obj/F_EX551.mdlx/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/F_EX551.mdlx/-0.dds
+
+  - name: remastered/obj/F_TT020.mdlx/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/F_TT020.mdlx/-0.dds
+
+  - name: remastered/obj/PRIZE_TT.mdlx/-0.dds
+    method: copy
+    source:
+      - name: remastered/obj/PRIZE_TT.mdlx/-0.dds
+
+  - name: remastered/obj/PRIZE_TT.mdlx/-1.dds
+    method: copy
+    source:
+      - name: remastered/obj/PRIZE_TT.mdlx/-1.dds
